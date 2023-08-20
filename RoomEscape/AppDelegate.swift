@@ -7,6 +7,12 @@
 
 import UIKit
 
+
+
+var users: [UserModel] = [
+    UserModel(email: "eunhwa6087@naver.com", id: "appletree123", password: "abcd123!", birth: "01/08/13", district: "서울.강남")
+]
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
